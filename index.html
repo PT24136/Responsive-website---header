@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adventure</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Tours</a></li>
+        <li><a href="#">Explore</a></li>
+        <li><a href="#">About</a></li>
+        <li class="std"><a href="#">Contact</a></li>
+      </ul>
+      <img src="img/menu-btn.png" alt="" class="menu-btn" />
+    </nav>
+    <!-- Header Section -->
+    <header>
+      <div class="header-content">
+        <h3>Explore the colorful world</h3>
+        <div class="line"></div>
+        <h1>A wonderful gift</h1>
+        <a href="" class="std">Learn More</a>
+      </div>
+    </header>
+
+    <!-- Events -->
+    <section class="events">
+      <div class="tittle">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>  
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="img/img1.png" alt="" />
+          <h4>Everest Camo Trek</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+            corporis nulla earum quae distinctio fugiat.
+          </p>
+          <a href="#" class="std">Learn More</a>
+        </div>
+
+        <div class="col">
+          <img src="img/img2.png" alt="" />
+          <h4>Walking Holidays</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque
+            corporis nulla earum quae distinctio fugiat.
+          </p>
+          <a href="#" class="std">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <!-- Explore -->
+    <section class="explore">
+      <div class="explore-cont">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sapiente
+          odio consectetur deserunt aspernatur, itaque assumenda exercitationem
+          quas eveniet neque doloremque. Illo obcaecati aut iste!
+        </p>
+        <a href="#" class="std"> Explore More</a>
+      </div>
+    </section>
+    <!-- Tours -->
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>UPCOMING TOURS AND DESTINATION</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+            est excepturi? Molestiae blanditiis repudiandae animi qui sed
+            perspiciatis corporis quia magnam! Eius debitis blanditiis esse
+            placeat exercitationem totam, facilis sapiente.
+          </p>
+          <a href="#" class="std"> Tour More</a>
+        </div>
+        <div class="col image-col">
+          <div class="image-gallery">
+            <img src="img/img3.png" alt="" />
+            <img src="img/img4.png" alt="" />
+            <img src="img/img5.png" alt="" />
+            <img src="img/img6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <section class="footer">
+      <p>
+        123 Fifth Avenue, DL 110055, New Delhi,INDIA| Phone: 1100553412 |
+        Email:tgcweb12@gmail.com
+      </p>
+      <p>Copyright &copy 2022 Tourism Adventure</p>
+    </section>
+
+    <script>
+      const menubtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menubtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
+
